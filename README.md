@@ -15,7 +15,7 @@ $ docker run -d -p 9411:9411 --name zipkin openzipkin/zipkin:2.23
 
 ### Configuration Server
 Create a folder named: git-localconfig-repo and add application.properties files
-Example for limits-service:
+#### Example for limits-service:
 - limits-service.properties
 - limits-service-dev.properties
 - limits-service-qa.properties
